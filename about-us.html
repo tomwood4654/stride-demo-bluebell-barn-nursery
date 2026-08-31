@@ -3,98 +3,202 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bluebell Barn Nursery | Childcare in East Grinstead, London Rd</title>
-<meta name="description" content="Caring nursery in East Grinstead offering nurturing childcare with outdoor exploration, community activities, and daily parent updates. Open 8am–6pm, Monday to Friday.">
+<title>About Us | Bluebell barn nursery</title>
+<meta name="description" content="Learn about Bluebell Barn Nursery in East Grinstead — a warm, nurturing childcare setting focused on outdoor exploration and staying connected with families.">
 <style>
-:root {
-  --primary: #5B9BD5;
-  --bg: #FFFEF9;
-  --text: #2C3E50;
-}
-* { box-sizing: border-box; margin:0; padding:0; }
-body { font-family: 'Inter', Arial, sans-serif; background: var(--bg); color: var(--text); line-height:1.6; }
-h1,h2,h3 { font-family: 'Poppins', 'Segoe UI', sans-serif; color: var(--primary); }
-header.site-header { background: #fff; padding: 1rem 2rem; display:flex; justify-content:space-between; align-items:center; box-shadow: 0 2px 8px rgba(0,0,0,0.05); position: sticky; top:0; z-index:100; flex-wrap:wrap; }
-.logo { font-family:'Poppins',sans-serif; font-size:1.4rem; font-weight:700; color:var(--primary); }
-nav ul { list-style:none; display:flex; gap:1.5rem; flex-wrap:wrap; }
-nav a { text-decoration:none; color:var(--text); font-weight:500; padding:0.3rem 0; border-bottom:2px solid transparent; transition:border-color 0.2s, color 0.2s; }
-nav a:hover, nav a:focus { color:var(--primary); border-bottom-color:var(--primary); }
-main { }
-section { padding: 3rem 2rem; max-width:1100px; margin:0 auto; }
-.hero { text-align:center; background: linear-gradient(180deg, #EAF3FB, var(--bg)); border-radius: 0 0 40px 40px; padding: 4rem 2rem; }
-.hero img { max-width:100%; border-radius:24px; box-shadow:0 10px 30px rgba(91,155,213,0.25); margin-top:2rem; }
-.hero h1 { font-size:2.6rem; margin-bottom:0.5rem; }
-.hero p.tagline { font-size:1.3rem; color:var(--text); margin-bottom:1rem; }
-.btn { display:inline-block; background:var(--primary); color:#fff; padding:0.8rem 1.8rem; border-radius:30px; text-decoration:none; font-weight:600; transition: transform 0.2s, box-shadow 0.2s; box-shadow:0 6px 16px rgba(91,155,213,0.35); }
-.btn:hover { transform: translateY(-2px); box-shadow:0 10px 20px rgba(91,155,213,0.45); }
-.card-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:2rem; margin-top:2rem; }
-.card { background:#fff; border-radius:20px; padding:1.5rem; box-shadow:0 6px 20px rgba(0,0,0,0.06); }
-.card img { width:100%; border-radius:14px; margin-bottom:1rem; }
-.about-split { display:flex; gap:2rem; align-items:center; flex-wrap:wrap; }
-.about-split img { flex:1 1 340px; border-radius:24px; max-width:100%; box-shadow:0 10px 24px rgba(91,155,213,0.2); }
-.about-split .text { flex:1 1 340px; }
-.gallery-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1.5rem; margin-top:2rem; }
-.gallery-grid img { width:100%; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.08); }
-.contact-section { background:#EAF3FB; border-radius:30px; padding:3rem 2rem; text-align:center; }
-.contact-details { margin-top:1.5rem; font-size:1.1rem; }
-.contact-details a { color:var(--primary); font-weight:600; text-decoration:none; }
-footer { text-align:center; padding:2rem; font-size:0.9rem; color:#6b7c8d; background:#fff; margin-top:3rem; }
-@media (max-width:600px){ header.site-header{flex-direction:column; align-items:flex-start;} nav ul{gap:1rem;} .hero h1{font-size:2rem;} }
+  :root {
+    --primary: #5B9BD5;
+    --bg: #FFFEF9;
+    --text: #2C3E50;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.6;
+  }
+  h1, h2, h3 {
+    font-family: 'Quicksand', 'Open Sans', sans-serif;
+    color: var(--text);
+  }
+  a { color: var(--primary); }
+  header.site-header {
+    background-color: #fff;
+    padding: 1.2rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid var(--primary);
+  }
+  header.site-header .logo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--primary);
+  }
+  nav.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  nav.main-nav a {
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 600;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    transition: background 0.2s ease;
+  }
+  nav.main-nav a:hover {
+    background-color: var(--primary);
+    color: #fff;
+  }
+  .hero {
+    position: relative;
+    padding: 4rem 2rem;
+    text-align: center;
+    background: linear-gradient(rgba(91,155,213,0.15), rgba(255,254,249,0.9));
+  }
+  .hero h1 {
+    font-size: 2.6rem;
+    margin-bottom: 0.5rem;
+  }
+  .hero p.tagline {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  .hero img {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: var(--primary);
+    color: #fff;
+    padding: 0.9rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 1rem;
+    box-shadow: 0 6px 14px rgba(91,155,213,0.4);
+    transition: transform 0.2s ease;
+  }
+  .cta-button:hover {
+    transform: translateY(-2px);
+  }
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.8rem;
+    margin: 2rem 0;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 16px rgba(44,62,80,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 14px;
+  }
+  section.about-snippet {
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 6px 16px rgba(44,62,80,0.06);
+  }
+  section.contact {
+    background-color: var(--primary);
+    color: #fff;
+    border-radius: 18px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  section.contact a {
+    color: #fff;
+    font-weight: 700;
+  }
+  footer.site-footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.85rem;
+    color: #6b7c8d;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+  }
+  @media (max-width: 600px) {
+    header.site-header { flex-direction: column; align-items: flex-start; gap: 1rem; }
+    .hero h1 { font-size: 2rem; }
+  }
 </style>
 </head>
 <body>
+
 <header class="site-header">
   <div class="logo">Bluebell Barn Nursery</div>
-  <nav>
+  <nav class="main-nav">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about-us.html">About Us</a></li>
-      <li><a href="rooms-ages.html">Rooms & Ages</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="contact-enquire.html">Contact & Enquire</a></li>
+      <li><a href="enquire-enrol.html">Enquire &amp; Enrol</a></li>
     </ul>
   </nav>
 </header>
 
+<section class="hero">
+  <h1>About Bluebell Barn Nursery</h1>
+  <p class="tagline">Getting to know our nursery family</p>
+</section>
+
 <main>
-  <section class="hero">
-    <h1>About Bluebell Barn Nursery</h1>
-    <p class="tagline">Caring, nurturing childcare in East Grinstead</p>
+  <section class="about-snippet">
+    <h2>Our Approach</h2>
+    <p>Welcome to Bluebell Barn Nursery, where every child is welcomed with warmth and genuine care. Our passionate team is committed to nurturing young minds and supporting families every step of the way, treating each child as an individual as they grow and learn.</p>
+    <p>We believe in getting out and exploring. Community walks and rhyme time sessions are part of daily life here, giving the children in our care rich, varied experiences beyond our doors.</p>
   </section>
 
-  <section class="about-split">
-    <img src="https://images.pexels.com/photos/8535620/pexels-photo-8535620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Children exploring outdoors at Bluebell Barn Nursery">
-    <div class="text">
-      <h2>Our Story</h2>
-      <p>Welcome to Bluebell Barn Nursery, where your child is welcomed with warmth and genuine care. Our passionate team is committed to nurturing young minds and supporting families every step of the way.</p>
-      <p>We believe in getting out and exploring – from community walks to rhyme time sessions – creating rich, varied experiences for the children in our care.</p>
+  <div class="card-grid">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/3662708/pexels-photo-3662708.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="A child engaged in learning at the nursery">
+      <h3>Passionate Team</h3>
+      <p>Our team is dedicated to nurturing young minds and supporting families every step of the way.</p>
     </div>
-  </section>
-
-  <section>
-    <div class="card-grid">
-      <div class="card">
-        <h3>Warmth & Care</h3>
-        <p>Your child is welcomed with warmth and genuine care by our passionate team.</p>
-      </div>
-      <div class="card">
-        <h3>Nurturing Young Minds</h3>
-        <p>We are committed to nurturing young minds and supporting families every step of the way.</p>
-      </div>
-      <div class="card">
-        <h3>Staying Connected</h3>
-        <p>Parents stay connected throughout the day with regular updates and photos via our app, so you're always part of your child's journey.</p>
-      </div>
+    <div class="card">
+      <img src="https://images.pexels.com/photos/27661864/pexels-photo-27661864.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Children exploring the outdoors on a community walk">
+      <h3>Exploring Together</h3>
+      <p>From community walks to rhyme time, we create rich and varied experiences for every child.</p>
     </div>
-  </section>
-
-  <section class="contact-section">
-    <h2>Come and See Us</h2>
-    <p>Get in touch to arrange a visit. Call 01342 643077 or email office@bluebellbarnnursery.co</p>
-    <a class="btn" style="margin-top:1rem;" href="contact-enquire.html">Contact & Enquire</a>
-  </section>
+    <div class="card">
+      <h3>Staying Connected</h3>
+      <p>Our app keeps parents updated with regular photos and messages, so you're always part of your child's day.</p>
+      <p>We're open Monday to Friday, 8:00 AM – 6:00 PM.</p>
+    </div>
+  </div>
 </main>
 
-<footer>Speculative demo site built by STRIDE — stridetechnology.co.uk</footer>
+<footer class="site-footer">
+  Speculative demo site built by STRIDE — stridetechnology.co.uk
+</footer>
+
 </body>
 </html>
